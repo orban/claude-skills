@@ -1,0 +1,27 @@
+{
+  "name": "orban",
+  "owner": {
+    "name": "orban"
+  },
+  "metadata": {
+    "description": "Personal skills and Intent Layer tools",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "claude-skills",
+      "source": "./plugins/claude-skills",
+      "description": "Personal skills - thinking techniques, debugging patterns, process workflows",
+      "version": "1.0.0"
+    },
+    {
+      "name": "intent-layer",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/orban/intent-layer.git"
+      },
+      "description": "Intent Layer plugin - AGENTS.md infrastructure for AI navigation",
+      "version": "1.0.1"
+    }
+  ]
+}
