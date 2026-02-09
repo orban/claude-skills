@@ -22,6 +22,15 @@
       },
       "description": "Intent Layer plugin - AGENTS.md infrastructure for AI navigation",
       "version": "1.0.1"
+    },
+    {
+      "name": "mx3-gym-mcp",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/orban/mx3-gym-mcp.git"
+      },
+      "description": "MCP server for MX3 Fitness gym booking - schedules, reservations, credits",
+      "version": "0.1.0"
     }
   ]
 }
